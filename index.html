@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Currency Converter</title>
+</head>
+<body>
+
+    <h1 class="tagline" > Real Time Currency Converter </h1>
+
+    <div class="container">
+      <div class="amount">
+        <input type="number" class="input-box" placeholder="Enter Amount">
+      </div>
+      <div class="flex-container">
+        <div class="box">
+            <h2>FROM</h2>
+            <hr>
+            <img src="https://flagsapi.com/US/flat/64.png" alt="from-img" id="from-flag" class="flag" >
+            <select name="from" id="select-from" class="selection">
+            <!-- <option value="">USA</option>
+            <option value="">IND</option>
+            <option value="">JAP</option> -->
+        </select>
+        </div>
+        <div class="box">
+            <div class="box-icon"><i class="fa-solid fa-right-left icon "  ></i></div>
+            <div class="button-box">
+                <button>Generate</button>
+            </div>
+
+
+            
+
+        </div>
+        <div class="box">
+            <h2>TO</h2>
+            <hr>
+            <img src="https://flagsapi.com/IN/flat/64.png" alt="to-img" id="to-flag" class="flag" >
+            <select name="to" id="select-to" class="selection">
+            <!-- <option value="">USA</option>
+            <option value="">IND</option>
+            <option value="">JAP</option> -->
+            </select>
+        </div>
+        <div class="label-box">
+            Aditya
+          </div>
+      </div>
+
+     
+     
+    </div>
+
+   
+    
+    <script src="list.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
